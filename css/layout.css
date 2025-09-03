@@ -161,7 +161,7 @@ main {padding-top: 110px;}
 
 .ntc_detail a {display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px;}
 .ntc_detail li, .ntc_detail p {font-size: 1.8rem; font-weight: 400;}
-.ntc_detail li:first-child {padding: 2px 20px; /* box-sizing: border-box; */ border-radius: 30px; color: #fff;}
+.ntc_detail li:first-child {padding: 2px 20px; /* box-sizing: border-box; */ border-radius: 30px; color: #fff;} /* 참여신청 카테고리 표시 */
 .ntc_detail:nth-child(1) li:first-child {background: #006035;}
 .ntc_detail:nth-child(2) li:first-child {background: #0082FF;}
 .ntc_detail:nth-child(3) li:first-child {background: #006035;}
@@ -173,44 +173,39 @@ main {padding-top: 110px;}
 
 
 
-/* 서브페이지1 탭리스트 */
+/* 서울시소식 탭리스트 */
 /* Tab + List */
 .tab.list {width: 930px; height: 100%; position: relative; }
 .tab.list h3 {font-size: 3.2rem; font-family: 'paperlogy'; font-weight: 700; line-height: 3.4rem; position: absolute; /* top: -59px; left: 0; */}
 /* .tab.list ul{position:relative;margin:0;padding:0;list-style:none;border-bottom:1px solid #ccc;font-family:Tahoma, Sans-serif;font-size:12px;*zoom:1} */
 .tab.list > ul {width: 100%; height: 300px; position: relative; bottom: -59px;}
 .tab.list li ul {width: 100%; height: 100%; padding: 40px 45px; position: absolute; top: 0; left: 0; box-sizing: border-box; border-radius: 30px; background: #fff;}
-.tab_tit > a  { position: relative; top: -59px; left: 158px;}
-.tab.list > ul > li .more { right: 0; position: absolute; top: -59px; background: url("../images/ntc_more.png") no-repeat center center;}
+.tab_tit > a  { position: relative; top: -57px; left: 158px;}
+.tab.list > ul > li .more { right: 0; position: absolute; top: -54px; background: url("../images/ntc_more.png") no-repeat center center;}
 .tab.list > ul > li .more > a {  width: 22px; height: 22px; display: inline-block; }
 .tab.list > ul > li > a > span {font-size: 2.3rem !important; font-weight: 500; color: #6D6D6D;}
 .tab.list > ul > li > a > span::before {content: ""; width: 6px; height: 6px; border-radius: 50%; display: inline-block; margin: 0 12px 5px 12px; background: #D9D9D9;}
 .tab.list > ul > li > a > span:focus, .tab.list > ul > li.active > a > span::before { transform: scale(2.3); /*width: 14px; height: 14px; display: inline-block; border-radius: 50%; */background: linear-gradient(180deg, rgba(0, 130, 255, 1) 0%, rgba(255, 10, 115, 1) 100%); margin-right: 12px; -webkit-transform: scale(2.3); -moz-transform: scale(2.3); -ms-transform: scale(2.3); -o-transform: scale(2.3); }
 .tab.list > ul > li.active > a > span  {font-weight: 700; background: linear-gradient(180deg, rgba(0, 130, 255, 1) 0%, rgba(255, 10, 115, 1) 100%); color: transparent; -webkit-background-clip: text;}
 
+.tab_tit {float:left;margin-bottom:-1px}
+.tab_tit li {float:none; position: relative; margin-bottom: 25px;}
+.tab_tit li:nth-child(5), .tab_tit li:last-child {margin: 0;}
+.tab_tit > ul a, .tab_tit > ul span {font-size: 1.8rem; line-height: 2rem; font-weight: 400;}
+.tab_tit .category {padding: 2px 20px; /* box-sizing: border-box; */ border-radius: 30px; color: #fff; margin-right: 30px;}
+.tab_tit > ul > li:nth-child(1) .category {background: #006035;}
+.tab_tit > ul > li:nth-child(2) .category {background: #0082FF;}
+.tab_tit > ul > li:nth-child(3) .category {background: #006035;}
+.tab_tit > ul > li:nth-child(4) .category {background: #00D778;}
+.tab_tit > ul > li:nth-child(5) .category {background: #0082FF;}
+.tab_tit li a:hover, .tab_tit li a:active, .tab_tit li a:focus{color:#000 !important;text-decoration:underline}
+.tab_tit li .time{width: 70px; position:absolute; top:0; right:0; text-align: right; color:#969696;}
+
+.tab_tit:first-child li:nth-child(5) {letter-spacing: -.8px;}
 
 
 
-.tab.list ul:after{content:"";display:block;clear:both}
-.tab.list li {float:left;margin-bottom:-1px}
-/* .tab.list li a{position:relative;float:left;text-decoration:none;} */
-/* .tab.list li ul{width:100%;position:absolute;top:40px;left:0;list-style:none;border:0;margin:0;padding:0;*zoom:1} */
-.tab.list li ul:after{content:"";display:block;clear:both}
-.tab.list li li{float:none;position:relative;margin:0 0 8px 0;color:#999}
-.tab.list li li a{float:none;padding:0;margin:0;border:0 !important;background:transparent;letter-spacing:normal}
-.tab.list li li a:hover,
-.tab.list li li a:active,
-.tab.list li li a:focus{color:#000 !important;text-decoration:underline}
-.tab.list li li time,
-.tab.list li li .time{position:absolute;top:0;right:0;color:#767676}
-/* .tab.list li li.more{position:absolute;top:-30px;right:0;border:0 !important;background:transparent} */
-.tab.list.jx{height:auto}
-.tab.list.jx ul{border:0}
-.tab.list.jx li{float:none;position:relative}
-.tab.list.jx li a{float:none;display:block;font-weight:bold;color:#333;border:1px solid #eee !important;border-bottom-color:#ccc !important;background:#fafafa !important}
-.tab.list.jx li ul{position:static;display:block;left:0;top:0;padding:5px 0}
-.tab.list.jx li li a{display:inline;border:0 !important;background:none !important;font-weight:normal}
-.tab.list.jx li li.more{top:7px;right:15px}
+
 
 /* 스토리 인 서울 외 2 */
 .seoul_story {width: 100%; height: 810px; position: relative; margin-bottom: 180px;}
@@ -373,6 +368,21 @@ background: linear-gradient(90deg, rgba(0, 130, 255, 1) 0%, rgba(255, 10, 115, 1
 /* width: 82px; height: 36px; border-radius: 30px; border: 2px solid transparent; margin-left: 554px; cursor: pointer; background-image: linear-gradient(#fff, #fff), linear-gradient(90deg, #0082Ff 0%, #FF0A73 100% ); background-origin: border-box; background-clip: content-box, border-box; */
 
 
+/* 서브페이지1 탭리스트 */
+/* Tab + List */
+.tab_list_sbp1 {width: 1070px; height: 100%; position: relative; }
+/* .tab.list ul{position:relative;margin:0;padding:0;list-style:none;border-bottom:1px solid #ccc;font-family:Tahoma, Sans-serif;font-size:12px;*zoom:1} */
+.tab_list_sbp1 > ul {width: 100%; height: auto; position: relative; bottom: -59px;}
+.sbp1_tab_tit > a  { position: relative; top: -57px; left: 158px;}
+.tab_list_sbp1 > ul > li > a > span {font-size: 2.3rem !important; font-weight: 500; color: #6D6D6D;}
+.tab_list_sbp1 > ul > li > a > span::before {content: ""; width: 6px; height: 6px; border-radius: 50%; display: inline-block; margin: 0 12px 5px 12px; background: #D9D9D9;}
+.tab_list_sbp1 > ul > li > a > span:focus, .tab.list > ul > li.active > a > span::before { transform: scale(2.3); /*width: 14px; height: 14px; display: inline-block; border-radius: 50%; */background: linear-gradient(180deg, rgba(0, 130, 255, 1) 0%, rgba(255, 10, 115, 1) 100%); margin-right: 12px; -webkit-transform: scale(2.3); -moz-transform: scale(2.3); -ms-transform: scale(2.3); -o-transform: scale(2.3); }
+.tab.list > ul > li.active > a > span  {font-weight: 700; background: linear-gradient(180deg, rgba(0, 130, 255, 1) 0%, rgba(255, 10, 115, 1) 100%); color: transparent; -webkit-background-clip: text;}
+
+.sbp1_tab_tit {float:left;margin-bottom:-1px}
+.sbp1_tab_tit li {float:none; position: relative; margin-bottom: 25px;}
+.sbp1_tab_tit li:nth-child(5), .sbp1_tab_tit li:last-child {margin: 0;}
+.sbp1_tab_tit > ul a, .sbp1_tab_tit > ul span {font-size: 1.8rem; line-height: 2rem; font-weight: 400;}
 
 
 
