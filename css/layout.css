@@ -157,8 +157,7 @@ main {padding-top: 110px;}
 /* 서울시소식 탭리스트 */
 /* Tab + List */
 .tab.list {width: 930px; height: 100%; position: relative; }
-.tab.list h3 {font-size: 3.2rem; font-family: 'paperlogy'; font-weight: 700; line-height: 3.4rem; position: absolute; /* top: -59px; left: 0; */}
-/* .tab.list ul{position:relative;margin:0;padding:0;list-style:none;border-bottom:1px solid #ccc;font-family:Tahoma, Sans-serif;font-size:12px;*zoom:1} */
+.tab.list h3 {font-size: 3.2rem; font-family: 'paperlogy'; font-weight: 700; line-height: 3.4rem; position: absolute;}
 .tab.list > ul {width: 100%; height: 300px; position: relative; bottom: -59px;}
 .tab.list li ul {width: 100%; height: 100%; padding: 40px 45px; position: absolute; top: 0; left: 0; box-sizing: border-box; border-radius: 30px; background: #fff;}
 .tab_tit > a  { position: relative; top: -57px; left: 158px;}
@@ -166,14 +165,14 @@ main {padding-top: 110px;}
 .tab.list > ul > li .more > a {  width: 22px; height: 22px; display: inline-block; }
 .tab.list > ul > li > a > span {font-size: 2.3rem !important; font-weight: 500; color: #6D6D6D;}
 .tab.list > ul > li > a > span::before {content: ""; width: 6px; height: 6px; border-radius: 50%; display: inline-block; margin: 0 12px 5px 12px; background: #D9D9D9;}
-.tab.list > ul > li > a > span:focus, .tab.list > ul > li.active > a > span::before { transform: scale(2.3); /*width: 14px; height: 14px; display: inline-block; border-radius: 50%; */background: linear-gradient(180deg, rgba(0, 130, 255, 1) 0%, rgba(255, 10, 115, 1) 100%); margin-right: 12px; -webkit-transform: scale(2.3); -moz-transform: scale(2.3); -ms-transform: scale(2.3); -o-transform: scale(2.3); }
+.tab.list > ul > li > a > span:focus, .tab.list > ul > li.active > a > span::before { transform: scale(2.3); background: linear-gradient(180deg, rgba(0, 130, 255, 1) 0%, rgba(255, 10, 115, 1) 100%); margin-right: 12px; -webkit-transform: scale(2.3); -moz-transform: scale(2.3); -ms-transform: scale(2.3); -o-transform: scale(2.3); }
 .tab.list > ul > li.active > a > span  {font-weight: 700; background: linear-gradient(180deg, rgba(0, 130, 255, 1) 0%, rgba(255, 10, 115, 1) 100%); color: transparent; -webkit-background-clip: text;}
 
 .tab_tit {float:left;margin-bottom:-1px}
 .tab_tit li {float:none; position: relative; margin-bottom: 25px;}
 .tab_tit li:nth-child(5), .tab_tit li:last-child {margin: 0;}
 .tab_tit > ul a, .tab_tit > ul span {font-size: 1.8rem; line-height: 2rem; font-weight: 400;}
-.tab_tit .category {padding: 2px 20px; /* box-sizing: border-box; */ border-radius: 30px; color: #fff; margin-right: 30px;}
+.tab_tit .category {padding: 2px 20px; border-radius: 30px; color: #fff; margin-right: 30px;}
 .tab_tit > ul > li:nth-child(1) .category {background: #006035;}
 .tab_tit > ul > li:nth-child(2) .category {background: #0082FF;}
 .tab_tit > ul > li:nth-child(3) .category {background: #006035;}
@@ -349,31 +348,53 @@ background: linear-gradient(90deg, rgba(0, 130, 255, 1) 0%, rgba(255, 10, 115, 1
 /* width: 82px; height: 36px; border-radius: 30px; border: 2px solid transparent; margin-left: 554px; cursor: pointer; background-image: linear-gradient(#fff, #fff), linear-gradient(90deg, #0082Ff 0%, #FF0A73 100% ); background-origin: border-box; background-clip: content-box, border-box; */
 
 
-/* 서브페이지1 탭리스트 */
+
+/* 서울시소식 탭리스트 */
 /* Tab + List */
-.tab_list_sbp1 {width: 1070px; height: 100%; position: relative; }
-.tab_list_sbp1 > ul {width: 100%; height: auto; position: absolute; left: 0; top: 0;}
-.sbp1_tab_tit > ul {width: 100%; height: 1827px; /* background: #ff0; */}
-.sbp1_tab_tit ul {width: 100%; height: 100%; padding-top: 80px; position: absolute; top: 0; left: 0; box-sizing: border-box; background: #f00;}
-.sbp1_tab_tit a {/* width: 267px; height: 70px; */ position: relative; top: 0; left: 0;}
+/* .tab.list_sbp1 { width: 100%; height: 100%; position: relative; }
+.tab.list_sbp1 > ul { width: 100%; height: 300px; position: absolute; left: 0; top: 0; }
+.tab.list_sbp1 li ul { width: 100%; height: 100%; position: absolute; top: 0; left: 0; box-sizing: border-box; border-radius: 30px; background: #fff; }
+.sbp1_tab_tit > a { position: relative; top: -57px; left: 158px; }
+.tab.list_sbp1 > ul > li > a > span { font-size: 2.3rem !important; font-weight: 500; color: #6D6D6D; } */
+/* 섹션 제목부분 */
 
-.sbp1_tab_tit a span {display:inline-block; padding:21px 92px; font-size: 2.4rem; line-height: 2.8rem; font-weight: 400; letter-spacing:-1px; color: #6D6D6D; cursor:pointer}
-.sbp1_tab_tit.active a span {font-weight: 700; color: #0082FF;}
-
-.sbp1_tab_tit {float:left; margin-bottom:-1px}
-.sbp1_tab_tit li, .sbp1_tab_tit p {font-size: 1.8rem; font-weight: 400; line-height: 150%; }
-.sbp1_tab_tit > a > span:focus, .sbp1_tab_tit.active > a > span { font-weight: 700; color: #0082FF;}
-
-
-
-/* .tab_list_sbp1 > ul {position:relative; margin:0; padding:0; list-style:none; border-bottom:1px solid #ccc; font-family:Tahoma, Sans-serif; font-size:12px; zoom:1;} */
+/* .sbp1_tab_tit > a > span:focus, .sbp1_tab_tit.active > a > span { font-weight: 700; color: #0082FF; }
+.tab.list_sbp1 > ul > li.active > a > span { font-weight: 700; background: linear-gradient(180deg, rgba(0, 130, 255, 1) 0%, rgba(255, 10, 115, 1) 100%); color: transparent; -webkit-background-clip: text; }
+.sbp1_tab_tit { float: left; margin-bottom: -1px}
+.sbp1_tab_tit li { float: none; position: relative; margin-bottom: 25px; }
+.sbp1_tab_tit > ul li, .sbp1_tab_tit > ul li p { font-size: 1.8rem; line-height: 2rem; font-weight: 400; } */
 
 
 
 
+/* Tab + List */
+.tab.list_sbp1 { height: 160px}
+.tab.list_sbp1 > ul {width: 100%; height: 70px; position: relative; box-sizing: border-box; list-style: none; border-bottom: 2px solid #0082FF;}
+.tab.list_sbp1 ul:after { content: ""; display: block; clear: both}
+.tab.list_sbp1 > ul > li {width: 25%; height: 70px; float: left;}
+
+.tab.list_sbp1 li.active a {width: 100%; height: 100%; border: 2px solid #0082FF; border-radius: 20px 20px 0 0; border-bottom: none; margin-top: -2px; background: #FAFAFA; color: #6D6D6D;}
+.tab.list_sbp1 li a span {width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; font-size: 2.4rem; font-weight: 400; line-height: 2.8rem; cursor: pointer} /* 섹션 제목 */
+.tab.list_sbp1 li.active a span {font-weight: 700; color: #0082FF;}
+.tab.list_sbp1 li a {width: 100%; height: 100%; position: relative; float: left; text-decoration: none; color: #6D6D6D;}
 
 
 
+.tab.list_sbp1 li ul { width: 100%; position: absolute; top: 70px; left: 0;} /* 본문 */
+.sbp1_tab_tit li {width: 100%; float: none; position: relative; padding: 60px 0; border-bottom: 2px solid #0082FF50; color: #6D6D6D;} /* 본문 */
+.sbp1_tab_tit li:first-child {margin-top: 20px;}
+
+
+
+/* .tab.list_sbp1 li li a { float: none; padding: 0; margin: 0; border: 0 !important; color: #666 !important; font-weight: normal; background: transparent; letter-spacing: normal} */
+/* .tab.list_sbp1 li li a:hover, .tab.list_sbp1 li li a:active, .tab.list_sbp1 li li a:focus { color: #000 !important; text-decoration: underline}
+ */
+/* .tab.list_sbp1.jx { height: auto}
+.tab.list_sbp1.jx ul { border: 0}
+.tab.list_sbp1.jx li { float: none; position: relative}
+.tab.list_sbp1.jx li a { float: none; display: block; font-weight: bold; color: #333; border: 1px solid #eee !important; border-bottom-color: #ccc !important; background: #fafafa !important}
+.tab.list_sbp1.jx li ul { position: static; display: block; left: 0; top: 0; padding: 5px 0}
+.tab.list_sbp1.jx li li a { display: inline; border: 0 !important; background: none !important; font-weight: normal} */
 
 
 
@@ -430,8 +451,8 @@ background: linear-gradient(90deg, rgba(0, 130, 255, 1) 0%, rgba(255, 10, 115, 1
 .squad_crnt > div > div p {width: 100%; height: 38px; position: absolute; bottom: 0; left: 0; border-radius: 0 0 20px 20px; padding: 8px 0; box-sizing: border-box; background: #00000020; backdrop-filter: blur(24px); font-size: 1.8rem; font-weight: 400; line-height: 2.2rem; text-align: center; color: #fff;}
 .Sqd_dis {margin-bottom: 120px;}
 
-.Sqd_Ndis i {width: 120px; height: 44px; display: flex; justify-content: center; align-items: center; border-radius: 50px; border: 1px solid #dfdfdf; font-size: 2rem; font-weight: 600; line-height: 2.4rem; font-style: normal; background: #fff; margin: 40px auto 60px auto;}
-.Sqd_Ndis i span {width: 18px; height: 11px; display: inline-block; margin-left: 10px; background: url("../images/Sqd_Ndis_more.png") no-repeat center center;}
+.Sqd_Ndis button {width: 120px; height: 44px; display: flex; justify-content: center; align-items: center; border-radius: 50px; border: 1px solid #dfdfdf; font-size: 2rem; font-weight: 600; line-height: 2.4rem; font-style: normal; background: #fff; margin: 40px auto 60px auto; cursor: pointer;}
+.Sqd_Ndis button span {width: 18px; height: 11px; display: inline-block; margin-left: 10px; background: url("../images/Sqd_Ndis_more.png") no-repeat center center;}
 .Sqd_Ndis a:nth-child(1) {display: inline-block; background: url("../images/squad_crnt1_pht01.jpg") no-repeat center center;}
 .Sqd_Ndis a:nth-child(2) {display: inline-block; background: url("../images/squad_crnt1_pht02.jpg") no-repeat center center;}
 .Sqd_Ndis a:nth-child(3) {display: inline-block; background: url("../images/squad_crnt1_pht03.jpg") no-repeat center center;}
@@ -478,13 +499,21 @@ background: linear-gradient(90deg, rgba(0, 130, 255, 1) 0%, rgba(255, 10, 115, 1
 .tk2020_P > div > ul > li:last-child span {background: url("../images/tk2020_P_plyr02.jpg") no-repeat center center;}
 .tk2020_P {margin-bottom: 45px;}
 
+
 /* 2023 아시안게임 */
+.tokyo_2020 p, .asian_2023 p, .parris_2024 p, .asian_2025 p {font-size: 1.8rem; font-weight: 400; line-height: 2.2rem; color: #2C2C2C; margin-bottom: 20px;}
+/* 표 */
+.asian_2023_N div, .asian_2023_P div, .parris_2024_N div, .parris_2024_P div, .asian_2025_N div {width: 100%; display: inline-block; /* 내부 테이블 크기에 맞춤 */ border: 1px solid #DFDFDF; /* border 표시 */ border-radius: 20px; /* radius 적용 */ overflow: hidden; /* 넘치는 건 감춤 */ }
+table { width: 100%; border-collapse: collapse; border-style: hidden; text-align: center;} /* 두께 맞추기 위해 border-style 숨김 */
+table th, table td { width: 20%; height: 50px; border: 1px solid #DFDFDF; font-size: 1.8rem; line-height: 2.2rem;}
+.tbl_size1 td {height: 90px;}
+table thead { background-color: #EEEEEE; }
+table b {width: 47px; height: 44px; font-size: 1.8rem; line-height: 1.5; text-align: center; display: inline-block; position: relative; right: -30px; padding-left: 20px;}
+table b::before {content:""; display:inline-block; width: 50px; height: 80px; position: absolute; left: -50px; top: -14px;}
+table .medal1 b::before {background: url("../images/gold_medal.png") no-repeat center center; }
+table .medal2 b::before {background: url("../images/silver_medal.png") no-repeat center center; }
+table .medal3 b::before {background: url("../images/bronze_medal.png") no-repeat center center; }
 
-
-
-
-
-
-
-
-
+.asian_2023_N, .parris_2024_N {margin-bottom: 60px;}
+.asian_2023_P, .parris_2024_P  {margin-bottom: 120px;}
+.asian_2025_N {margin-bottom: 20px;}
