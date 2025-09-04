@@ -143,33 +143,14 @@ main {padding-top: 110px;}
 .notice_list {width: 930px; height: 100%;}
 .n_video {width: 470px; height: 100%;}
 
-.ntc_category {width: 100%; height: 35px; display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px;}
-.ntc_tit {width: 100%; height: 300px; padding: 40px 45px; box-sizing: border-box; border-radius: 30px; background: #fff;}
 .n_video ul {width: 100%; height: 35px; display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px;}
 .n_video p {width: 100%; height: 300px; border-radius: 30px; background: url("../images/video.jpg") no-repeat center center;}
-.ntc_category > div {width: 773px; display: flex; justify-content: space-between;}
-/* .ntc_ctgr ul {display: flex; justify-content: space-between;} */
-.ntc_category p, .n_video li:first-child {font-size: 3.2rem; font-family: 'paperlogy'; font-weight: 700; line-height: 3.4rem;}
-.ntc_ctgr button {font-size: 2.3rem; font-weight: 500; color: #6D6D6D; display: inline-block; border: none; background: none; cursor: pointer;}
-/* .ntc_ctgr a:first-child {font-weight: 700; background: linear-gradient(180deg, rgba(0, 130, 255, 1) 0%, rgba(255, 10, 115, 1) 100%); color: transparent; -webkit-background-clip: text;} */
-.ntc_category a, .n_video a {width: 22px; height: 22px; display: inline-block; background: url("../images/ntc_more.png") no-repeat center center;} 
-/* .ntc_category li:first-child span {width: 14px; height: 14px; display: inline-block; border-radius: 50%; background: linear-gradient(180deg, rgba(0, 130, 255, 1) 0%, rgba(255, 10, 115, 1) 100%); margin-right: 8px;} */
-.ntc_ctgr button::before {content: ""; width: 6px; height: 6px; border-radius: 50%; display: inline-block; margin: 0 12px 5px 12px; background: #D9D9D9;}
-.ntc_ctgr button:focus, .ntc_ctgr button::before :active { transform: scale(2.3); /*width: 14px; height: 14px; display: inline-block; border-radius: 50%; */background: linear-gradient(180deg, rgba(0, 130, 255, 1) 0%, rgba(255, 10, 115, 1) 100%); margin-right: 8px; -webkit-transform: scale(2.3); -moz-transform: scale(2.3); -ms-transform: scale(2.3); -o-transform: scale(2.3); }
-.ntc_ctgr button:focus, .ntc_ctgr button:active  {font-weight: 700; background: linear-gradient(180deg, rgba(0, 130, 255, 1) 0%, rgba(255, 10, 115, 1) 100%); color: transparent; -webkit-background-clip: text;}
 
+.ntc_category {width: 100%; height: 35px; display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px;}
+.ntc_tit {width: 100%; height: 300px; padding: 40px 45px; box-sizing: border-box; border-radius: 30px; background: #fff;}
+.n_video li:first-child {font-size: 3.2rem; font-family: 'paperlogy'; font-weight: 700; line-height: 3.4rem;}
+.n_video a {width: 22px; height: 22px; display: inline-block; background: url("../images/ntc_more.png") no-repeat center center;}
 
-.ntc_detail a {display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px;}
-.ntc_detail li, .ntc_detail p {font-size: 1.8rem; font-weight: 400;}
-.ntc_detail li:first-child {padding: 2px 20px; /* box-sizing: border-box; */ border-radius: 30px; color: #fff;} /* 참여신청 카테고리 표시 */
-.ntc_detail:nth-child(1) li:first-child {background: #006035;}
-.ntc_detail:nth-child(2) li:first-child {background: #0082FF;}
-.ntc_detail:nth-child(3) li:first-child {background: #006035;}
-.ntc_detail:nth-child(4) li:first-child {background: #00D778;}
-.ntc_detail:nth-child(5) li:first-child {background: #0082FF;}
-.ntc_detail li:last-child {width: 738px; display: flex; justify-content: space-between;}
-.ntc_detail p {display: inline-block; color: #969696;}
-.ntc_detail:last-child p {letter-spacing: -.8px;}
 
 
 
@@ -371,23 +352,21 @@ background: linear-gradient(90deg, rgba(0, 130, 255, 1) 0%, rgba(255, 10, 115, 1
 /* 서브페이지1 탭리스트 */
 /* Tab + List */
 .tab_list_sbp1 {width: 1070px; height: 100%; position: relative; }
-/* .tab.list ul{position:relative;margin:0;padding:0;list-style:none;border-bottom:1px solid #ccc;font-family:Tahoma, Sans-serif;font-size:12px;*zoom:1} */
-.tab_list_sbp1 > ul {width: 100%; height: auto; position: relative; bottom: -59px;}
-.sbp1_tab_tit > a  { position: relative; top: -57px; left: 158px;}
-.tab_list_sbp1 > ul > li > a > span {font-size: 2.3rem !important; font-weight: 500; color: #6D6D6D;}
-.tab_list_sbp1 > ul > li > a > span::before {content: ""; width: 6px; height: 6px; border-radius: 50%; display: inline-block; margin: 0 12px 5px 12px; background: #D9D9D9;}
-.tab_list_sbp1 > ul > li > a > span:focus, .tab.list > ul > li.active > a > span::before { transform: scale(2.3); /*width: 14px; height: 14px; display: inline-block; border-radius: 50%; */background: linear-gradient(180deg, rgba(0, 130, 255, 1) 0%, rgba(255, 10, 115, 1) 100%); margin-right: 12px; -webkit-transform: scale(2.3); -moz-transform: scale(2.3); -ms-transform: scale(2.3); -o-transform: scale(2.3); }
-.tab.list > ul > li.active > a > span  {font-weight: 700; background: linear-gradient(180deg, rgba(0, 130, 255, 1) 0%, rgba(255, 10, 115, 1) 100%); color: transparent; -webkit-background-clip: text;}
+.tab_list_sbp1 > ul {width: 100%; height: auto; position: absolute; left: 0; top: 0;}
+.sbp1_tab_tit > ul {width: 100%; height: 1827px; /* background: #ff0; */}
+.sbp1_tab_tit ul {width: 100%; height: 100%; padding-top: 80px; position: absolute; top: 0; left: 0; box-sizing: border-box; background: #f00;}
+.sbp1_tab_tit a {/* width: 267px; height: 70px; */ position: relative; top: 0; left: 0;}
 
-.sbp1_tab_tit {float:left;margin-bottom:-1px}
-.sbp1_tab_tit li {float:none; position: relative; margin-bottom: 25px;}
-.sbp1_tab_tit li:nth-child(5), .sbp1_tab_tit li:last-child {margin: 0;}
-.sbp1_tab_tit > ul a, .sbp1_tab_tit > ul span {font-size: 1.8rem; line-height: 2rem; font-weight: 400;}
+.sbp1_tab_tit a span {display:inline-block; padding:21px 92px; font-size: 2.4rem; line-height: 2.8rem; font-weight: 400; letter-spacing:-1px; color: #6D6D6D; cursor:pointer}
+.sbp1_tab_tit.active a span {font-weight: 700; color: #0082FF;}
 
+.sbp1_tab_tit {float:left; margin-bottom:-1px}
+.sbp1_tab_tit li, .sbp1_tab_tit p {font-size: 1.8rem; font-weight: 400; line-height: 150%; }
+.sbp1_tab_tit > a > span:focus, .sbp1_tab_tit.active > a > span { font-weight: 700; color: #0082FF;}
 
 
 
-
+/* .tab_list_sbp1 > ul {position:relative; margin:0; padding:0; list-style:none; border-bottom:1px solid #ccc; font-family:Tahoma, Sans-serif; font-size:12px; zoom:1;} */
 
 
 
@@ -429,5 +408,83 @@ background: linear-gradient(90deg, rgba(0, 130, 255, 1) 0%, rgba(255, 10, 115, 1
 
 
 
-/* sub_page_02 */
+/* 서브페이지2 */
 .sub2_dep0_selected {font-size: 2.4rem; line-height: 2.8rem; font-weight: 700; color: #0082FF;}
+
+.sub_txt2 {width: 100%; height: auto;}
+
+.squad_int {width: 100%; height: 190px; display: flex; align-items: center; padding: 30px 50px; border-radius: 40px; border: 1px solid #DFDFDF; box-sizing: border-box; background: #fff; margin-bottom: 70px;}
+.squad_int > div {width: 800px; height: 130px;}
+
+.squad_int span {width: 111px; height: 90px; display: inline-block; margin-right: 40px; background: url("../images/squad_int.png") no-repeat center center;}
+.squad_int h5 {font-size: 2.4rem; font-weight: 700; line-height: 2.8rem; margin-bottom: 20px; color: #0082FF;}
+.squad_int p, .squad_crnt > p {font-size: 1.8rem; font-weight: 400; line-height: 150%; color: #2C2C2C;}
+
+.squad_crnt b, .seoul_sprt b {display: block; font-size: 1.8rem; font-weight: 700; line-height: 2.2rem; color: #000;}
+.squad_crnt h5, .seoul_sprt h5, .tokyo_2020 h5, .asian_2023 h5, .parris_2024 h5, .asian_2025 h5 {font-size: 2.8rem; font-weight: 700; line-height: 3.2rem; margin-bottom: 20px; color: #0082FF;}
+.squad_crnt > p {margin-bottom: 70px;}
+
+/* 선수단 현황 */
+.squad_crnt > div > div {width: 100%; height: 424px; display: flex; flex-wrap: wrap; gap: 23px; margin-top: 20px;}
+.squad_crnt > div > div a {width: 250px; height: 200px; display: inline-block; position: relative; border-radius: 20px;}
+.squad_crnt > div > div p {width: 100%; height: 38px; position: absolute; bottom: 0; left: 0; border-radius: 0 0 20px 20px; padding: 8px 0; box-sizing: border-box; background: #00000020; backdrop-filter: blur(24px); font-size: 1.8rem; font-weight: 400; line-height: 2.2rem; text-align: center; color: #fff;}
+.Sqd_dis {margin-bottom: 120px;}
+
+.Sqd_Ndis i {width: 120px; height: 44px; display: flex; justify-content: center; align-items: center; border-radius: 50px; border: 1px solid #dfdfdf; font-size: 2rem; font-weight: 600; line-height: 2.4rem; font-style: normal; background: #fff; margin: 40px auto 60px auto;}
+.Sqd_Ndis i span {width: 18px; height: 11px; display: inline-block; margin-left: 10px; background: url("../images/Sqd_Ndis_more.png") no-repeat center center;}
+.Sqd_Ndis a:nth-child(1) {display: inline-block; background: url("../images/squad_crnt1_pht01.jpg") no-repeat center center;}
+.Sqd_Ndis a:nth-child(2) {display: inline-block; background: url("../images/squad_crnt1_pht02.jpg") no-repeat center center;}
+.Sqd_Ndis a:nth-child(3) {display: inline-block; background: url("../images/squad_crnt1_pht03.jpg") no-repeat center center;}
+.Sqd_Ndis a:nth-child(4) {display: inline-block; background: url("../images/squad_crnt1_pht04.jpg") no-repeat center center;}
+.Sqd_Ndis a:nth-child(5) {display: inline-block; background: url("../images/squad_crnt1_pht05.jpg") no-repeat center center;}
+.Sqd_Ndis a:nth-child(6) {display: inline-block; background: url("../images/squad_crnt1_pht06.jpg") no-repeat center center;}
+.Sqd_Ndis a:nth-child(7) {display: inline-block; background: url("../images/squad_crnt1_pht07.jpg") no-repeat center center;}
+.Sqd_Ndis a:nth-child(8) {display: inline-block; background: url("../images/squad_crnt1_pht08.jpg") no-repeat center center;}
+.Sqd_dis a:nth-child(1) {display: inline-block; background: url("../images/squad_crnt2_pht01.png") no-repeat center center;}
+.Sqd_dis a:nth-child(2) {display: inline-block; background: url("../images/squad_crnt2_pht02.jpg") no-repeat center center;}
+.Sqd_dis a:nth-child(3) {display: inline-block; background: url("../images/squad_crnt2_pht03.jpg") no-repeat center center;}
+.Sqd_dis a:nth-child(4) {display: inline-block; background: url("../images/squad_crnt2_pht04.jpg") no-repeat center center;}
+.Sqd_dis a:nth-child(5) {display: inline-block; background: url("../images/squad_crnt2_pht05.jpg") no-repeat center center;}
+.Sqd_dis a:nth-child(6) {display: inline-block; background: url("../images/squad_crnt2_pht06.jpg") no-repeat center center;}
+.Sqd_dis a:nth-child(7) {display: inline-block; background: url("../images/squad_crnt2_pht07.jpg") no-repeat center center;}
+.Sqd_dis a:nth-child(8) {display: inline-block; background: url("../images/squad_crnt2_pht08.jpg") no-repeat center center;}
+
+/* 서울시 지원내용 */
+.seoul_sprt b, .seoul_sprt p {margin-bottom: 10px;}
+.seoul_sprt p {font-size: 1.8rem; font-weight: 400; line-height: 150%; color: #2C2C2C; margin-left: 40px; margin-top: 10px;}
+.seoul_sprt p:last-child {margin-bottom: 60px;}
+
+/* 2020 도쿄올림픽 */
+.tokyo_2020 {width: 100%; height: auto;}
+.tk2020_N > div, .tk2020_P > div {width: 100%; height: auto; display: flex; justify-content: space-between;}
+.tk2020_N > div > ul > li, .tk2020_P > div > ul > li {display: inline-block; font-size: 1.8rem; line-height: 2.2rem; color: #2C2C2C; text-align: center;}
+.tk2020_N > div > ul, .tk2020_P > div > ul {width: 790px; height: auto; display: flex; justify-content: space-between;}
+
+.tk2020_N p, .tk2020_P p {font-size: 1.8rem; font-weight: 400; line-height: 2.2rem; color: #2C2C2C; margin-bottom: 20px;}
+.tk2020_N > div > span, .tk2020_P > div > span {width: 250px; height: 200px; display: inline-block; border-radius: 20px; border: 1px solid #DFDFDF; box-sizing: border-box; margin-right: 30px;}
+.tk2020_N > div > span {background: url("../images/tk2020_N.jpg") no-repeat center center;}
+.tk2020_N > div > ul > li > span {width: 120px; height: 200px; display: block; border-radius: 20px; margin-bottom: 10px;}
+.tk2020_N > div > ul > li:nth-child(1) span {background: url("../images/tk2020_N_plyr01.jpg") no-repeat center center;}
+.tk2020_N > div > ul > li:nth-child(2) span {background: url("../images/tk2020_N_plyr02.jpg") no-repeat center center;}
+.tk2020_N > div > ul > li:nth-child(3) span {background: url("../images/tk2020_N_plyr03.jpg") no-repeat center center;}
+.tk2020_N > div > ul > li:nth-child(4) span {background: url("../images/tk2020_N_plyr04.jpg") no-repeat center center;}
+.tk2020_N > div > ul > li:nth-child(5) span {background: url("../images/tk2020_N_plyr05.jpg") no-repeat center center;}
+.tk2020_N > div > ul > li:nth-child(6) span {background: url("../images/tk2020_N_plyr06.jpg") no-repeat center center;}
+.tk2020_N > div > ul > li:last-child span {margin-right: 0;}
+
+.tk2020_P > div > span {background: url("../images/tk2020_P.jpg") no-repeat center center;}
+.tk2020_P > div > ul > li > span {width: 380px; height: 200px; display: block; border-radius: 20px; margin-bottom: 10px;} 
+.tk2020_P > div > ul > li:first-child span {background: url("../images/tk2020_P_plyr01.jpg") no-repeat center center;}
+.tk2020_P > div > ul > li:last-child span {background: url("../images/tk2020_P_plyr02.jpg") no-repeat center center;}
+.tk2020_P {margin-bottom: 45px;}
+
+/* 2023 아시안게임 */
+
+
+
+
+
+
+
+
+
