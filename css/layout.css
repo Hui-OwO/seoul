@@ -396,7 +396,7 @@ background: linear-gradient(90deg, rgba(0, 130, 255, 1) 0%, rgba(255, 10, 115, 1
 .sbp1_tab_tit ul > li:nth-child(2) span {background: url("../images/sbp1_TB_t1_02.jpg") no-repeat center center;}
 .sbp1_tab_tit ul > li:nth-child(3) span {height: 432px; background: url("../images/sbp1_TB_t1_03.jpg") no-repeat center center;}
 
-.sbp1_tab_tit ul > li:last-child p {margin-bottom: 50px;}
+.tab.list_sbp1 .sbp1_tab_tit:nth-child(1) ul > li:last-child p, .tab.list_sbp1 .sbp1_tab_tit:nth-child(2) ul > li:last-child p {margin-bottom: 50px;}
 .sbp1_tab_tit ul > li:last-child {border-bottom: none;}
 
 
