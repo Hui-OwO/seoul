@@ -383,39 +383,21 @@ background: linear-gradient(90deg, rgba(0, 130, 255, 1) 0%, rgba(255, 10, 115, 1
 .tab.list_sbp1 li ul { width: 100%; position: absolute; top: 70px; left: 0;} /* 본문 */
 .sbp1_tab_tit li {width: 100%; float: none; position: relative; padding: 60px 0; border-bottom: 2px solid #0082FF50; color: #6D6D6D;} /* 본문 */
 .sbp1_tab_tit li:first-child {margin-top: 20px;}
+.sbp1_TB_tit {display: block; margin-bottom: 50px;}
+.sbp1_tab_tit p {margin-bottom: 20px;}
+.sbp1_tab_tit p, .sbp1_tab_tit b {font-size: 2.4rem; font-weight: 400; line-height: 2.8rem; color: #000;}
+.sbp1_tab_tit b {font-weight: 700;}
+.sbp1_tab_tit i, .sbp1_TB_cnt div {font-size: 1.8rem; font-weight: 400; line-height: 150%;}
+.sbp1_tab_tit i {color: #000; font-style: normal;}
+.sbp1_TB_cnt {width: 100%; height: auto; display: flex;}
+.sbp1_TB_cnt div {width: 600px; height: auto; display: inline-block;}
+.sbp1_tab_tit ul > li span {width: 440px; height: 297px; display: inline-block; border-radius: 20px; margin-left: 30px;}
+.sbp1_tab_tit ul > li:nth-child(1) span {background: url("../images/sbp1_TB_t1_01.jpg") no-repeat center center;}
+.sbp1_tab_tit ul > li:nth-child(2) span {background: url("../images/sbp1_TB_t1_02.jpg") no-repeat center center;}
+.sbp1_tab_tit ul > li:nth-child(3) span {height: 432px; background: url("../images/sbp1_TB_t1_03.jpg") no-repeat center center;}
 
-
-
-/* .tab.list_sbp1 li li a { float: none; padding: 0; margin: 0; border: 0 !important; color: #666 !important; font-weight: normal; background: transparent; letter-spacing: normal} */
-/* .tab.list_sbp1 li li a:hover, .tab.list_sbp1 li li a:active, .tab.list_sbp1 li li a:focus { color: #000 !important; text-decoration: underline}
- */
-/* .tab.list_sbp1.jx { height: auto}
-.tab.list_sbp1.jx ul { border: 0}
-.tab.list_sbp1.jx li { float: none; position: relative}
-.tab.list_sbp1.jx li a { float: none; display: block; font-weight: bold; color: #333; border: 1px solid #eee !important; border-bottom-color: #ccc !important; background: #fafafa !important}
-.tab.list_sbp1.jx li ul { position: static; display: block; left: 0; top: 0; padding: 5px 0}
-.tab.list_sbp1.jx li li a { display: inline; border: 0 !important; background: none !important; font-weight: normal} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.sbp1_tab_tit ul > li:last-child p {margin-bottom: 50px;}
+.sbp1_tab_tit ul > li:last-child {border-bottom: none;}
 
 
 
