@@ -75,9 +75,9 @@ main {padding-top: 110px;}
 .rep {width: 100%; height: 250px; display: inline-block; border-radius: 150px 30px 30px 30px; position: relative; background: url("../images/rep.png") no-repeat right, linear-gradient(270deg, rgba(255, 255, 255, 0) 50%, rgba(0, 215, 120, 0.4) 100%);}
 .link_pg {width: 100%; height: 160px; display: flex; justify-content: space-between; padding-top: 40px;}
 .link_pg a {width: 140px; height: 100%; border-radius: 30px; display: inline-block; padding: 12px 30px; box-sizing: border-box; font-size: 1.8rem; font-weight: 600; text-align: center;}
-.link_pg li:nth-child(1) a {background: #00D77820; color: #004C2A;}
-.link_pg li:nth-child(2) a {background: #FABF1320; color: #6B5601;}
-.link_pg li:nth-child(3) a {background: #0082FF20; color: #00366B;}
+.link_pg li:nth-child(1) a {background: #00D77820; border: 2px solid #00D77800; color: #004C2A;}
+.link_pg li:nth-child(2) a {background: #FABF1320; border: 2px solid #FABF1300; color: #6B5601;}
+.link_pg li:nth-child(3) a {background: #0082FF20; border: 2px solid #0082FF00; color: #00366B;}
 .link_pg li a:hover, .link_pg li a:focus {background: #fff; box-sizing: border-box; font-weight: 700; color: #000;}
 .link_pg li:nth-child(1) a:hover, .link_pg li:nth-child(1) a:focus {border: 2px solid #00D778;}
 .link_pg li:nth-child(2) a:hover, .link_pg li:nth-child(2) a:focus {border: 2px solid #FABF13;}
@@ -108,7 +108,7 @@ main {padding-top: 110px;}
 .rep a {width: 240px; height: 50px; display: flex; justify-content: center; align-items: center; border-radius: 30px 0 30px 0; padding: 10px 51px; box-sizing: border-box; position: absolute; right: 0; bottom: 0; background: linear-gradient(90deg, rgba(0, 130, 255, 1) 0%, rgba(0, 215, 120, 1) 100%); color: #fff;}
 .rep span {width: 209px; height: 34px; display: block; padding-left: 75px; background: url("../images/rep_slogan.png") no-repeat center center;}
 .rep li:first-child {position: absolute; left: 41px; top: 48px;}
-.rep a:hover, .rep a:focus {font-weight: 700; color: #FF0A73;}
+/* .rep a:hover, .rep a:focus {font-weight: 700; color: #FF0A73;} */
 
 
 .link_pg span {display: block;}
