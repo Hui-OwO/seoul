@@ -464,6 +464,8 @@ background: linear-gradient(90deg, rgba(0, 130, 255, 1) 0%, rgba(255, 10, 115, 1
 .Sqd_dis a:nth-child(7) {display: inline-block; background: url("../images/squad_crnt2_pht07.jpg") no-repeat center center;}
 .Sqd_dis a:nth-child(8) {display: inline-block; background: url("../images/squad_crnt2_pht08.jpg") no-repeat center center;}
 .Sqd_Ndis a:hover p, .Sqd_Ndis a:focus p, .Sqd_dis a:hover p, .Sqd_dis a:focus p {background: #0082FF;}
+.Sqd_Ndis button:focus span {transform: rotate(180deg); transition: transform 0.9s ease;}
+
 
 /* 서울시 지원내용 */
 .seoul_sprt b, .seoul_sprt p {margin-bottom: 10px;}
